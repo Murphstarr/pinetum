@@ -5,6 +5,14 @@
  * @format
  * @flow strict-local
  */
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import HomeScreen from '/Users/daniel/Documents/projects/Pinetum/HomeScreen.js'
+// Initialize Apollo Client
+const client = new ApolloClient({
+  uri: 'https://countries.trevorblades.com/graphql',
+  cache: new InMemoryCache()
+});
+
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
@@ -51,6 +59,7 @@ const App = () => {
  
 
   return (
+    <ApolloProvider client={client}>
     <View style={styles.container}>
       <Text>Welcome!</Text>
       <View
@@ -59,8 +68,12 @@ const App = () => {
       </View>
       <Text>Latitude: {location ? location.coords.latitude : null}</Text>
       <Text>Longitude: {location ? location.coords.longitude : null}</Text>
-
+   
+      <Text style={styles.title}>My Countries App</Text>
+      <HomeScreen/>
+  
     </View>
+    </ApolloProvider>
   );
 };
 const styles = StyleSheet.create({
