@@ -2,7 +2,7 @@ import { useQuery } from "@apollo/client";
 import { CONTINENT_QUERY } from "./gql/Query";
 import { Text, FlatList, Pressable } from 'react-native'
 
-export default function HomeScreen() {
+export default function EntryScreen() {
     const { data, loading } = useQuery(CONTINENT_QUERY); //execute query
   
     const ContinentItem = ({ continent }) => {
@@ -16,7 +16,7 @@ export default function HomeScreen() {
     };
   
     if (loading) {
-      return <Text>Fetching data...</Text> //while loading return this
+      return <Text>Loading...</Text> //while loading return this
     }
   
     return (

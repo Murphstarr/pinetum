@@ -6,7 +6,8 @@
  * @flow strict-local
  */
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-import HomeScreen from '/Users/daniel/Documents/projects/Pinetum/HomeScreen.js'
+import HomeScreen from './EntryScreen.js'
+import { readGenus, getSpecies, getVariation } from './readData.js'
 // Initialize Apollo Client
 const client = new ApolloClient({
   uri: 'https://countries.trevorblades.com/graphql',
@@ -27,6 +28,7 @@ import Geolocation from 'react-native-geolocation-service';
 
 const App = () => {
   // state to hold location
+  getVariation("alba")
   const [location, setLocation] = useState(false);
   const requestLocationPermission = async () => {
     if (Platform.OS === 'ios') {
@@ -68,10 +70,7 @@ const App = () => {
       </View>
       <Text>Latitude: {location ? location.coords.latitude : null}</Text>
       <Text>Longitude: {location ? location.coords.longitude : null}</Text>
-   
-      <Text style={styles.title}>My Countries App</Text>
-      <HomeScreen/>
-  
+      
     </View>
     </ApolloProvider>
   );
