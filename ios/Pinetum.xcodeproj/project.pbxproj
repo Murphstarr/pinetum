@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* PinetumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PinetumTests.m */; };
+		118ECA4C459710CE1C813D81 /* libPods-Pinetum-PinetumTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 163B4232EF6708208CA0901C /* libPods-Pinetum-PinetumTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2B27EE361F04D0C50A492DEE /* libPods-Pinetum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53117194E36F6FE8D523F474 /* libPods-Pinetum.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DC876A669C88D8721919D422 /* libPods-Pinetum-PinetumTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF8BDB349B9EB8F0CEBA43A /* libPods-Pinetum-PinetumTests.a */; };
+		9FCF2463D4ACF477673A20A1 /* libPods-Pinetum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47EF11E8D51C69827993BD41 /* libPods-Pinetum.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +30,19 @@
 		00E356EE1AD99517003FC87E /* PinetumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinetumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* PinetumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinetumTests.m; sourceTree = "<group>"; };
-		0CFA25443DA8776D348AC0FE /* Pods-Pinetum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinetum.release.xcconfig"; path = "Target Support Files/Pods-Pinetum/Pods-Pinetum.release.xcconfig"; sourceTree = "<group>"; };
+		0276041CEDB21CB8FDF66912 /* Pods-Pinetum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinetum.release.xcconfig"; path = "Target Support Files/Pods-Pinetum/Pods-Pinetum.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Pinetum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinetum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Pinetum/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Pinetum/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Pinetum/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Pinetum/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Pinetum/main.m; sourceTree = "<group>"; };
-		4AF8BDB349B9EB8F0CEBA43A /* libPods-Pinetum-PinetumTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pinetum-PinetumTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53117194E36F6FE8D523F474 /* libPods-Pinetum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pinetum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76F078F3890F6E64F26FC5AB /* Pods-Pinetum-PinetumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinetum-PinetumTests.release.xcconfig"; path = "Target Support Files/Pods-Pinetum-PinetumTests/Pods-Pinetum-PinetumTests.release.xcconfig"; sourceTree = "<group>"; };
+		163B4232EF6708208CA0901C /* libPods-Pinetum-PinetumTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pinetum-PinetumTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3320730BAA5F8283F50568 /* Pods-Pinetum-PinetumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinetum-PinetumTests.debug.xcconfig"; path = "Target Support Files/Pods-Pinetum-PinetumTests/Pods-Pinetum-PinetumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47EF11E8D51C69827993BD41 /* libPods-Pinetum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pinetum.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C623CD2D1FF87DCC2F296A /* Pods-Pinetum-PinetumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinetum-PinetumTests.release.xcconfig"; path = "Target Support Files/Pods-Pinetum-PinetumTests/Pods-Pinetum-PinetumTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Pinetum/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		95F2AB42B4C81C76B089A1D1 /* Pods-Pinetum-PinetumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinetum-PinetumTests.debug.xcconfig"; path = "Target Support Files/Pods-Pinetum-PinetumTests/Pods-Pinetum-PinetumTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAA043F5A428345D61E5DF84 /* Pods-Pinetum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinetum.debug.xcconfig"; path = "Target Support Files/Pods-Pinetum/Pods-Pinetum.debug.xcconfig"; sourceTree = "<group>"; };
+		B9B59F6D2D3B53D657DD893F /* Pods-Pinetum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pinetum.debug.xcconfig"; path = "Target Support Files/Pods-Pinetum/Pods-Pinetum.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC876A669C88D8721919D422 /* libPods-Pinetum-PinetumTests.a in Frameworks */,
+				118ECA4C459710CE1C813D81 /* libPods-Pinetum-PinetumTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B27EE361F04D0C50A492DEE /* libPods-Pinetum.a in Frameworks */,
+				9FCF2463D4ACF477673A20A1 /* libPods-Pinetum.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				53117194E36F6FE8D523F474 /* libPods-Pinetum.a */,
-				4AF8BDB349B9EB8F0CEBA43A /* libPods-Pinetum-PinetumTests.a */,
+				47EF11E8D51C69827993BD41 /* libPods-Pinetum.a */,
+				163B4232EF6708208CA0901C /* libPods-Pinetum-PinetumTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AAA043F5A428345D61E5DF84 /* Pods-Pinetum.debug.xcconfig */,
-				0CFA25443DA8776D348AC0FE /* Pods-Pinetum.release.xcconfig */,
-				95F2AB42B4C81C76B089A1D1 /* Pods-Pinetum-PinetumTests.debug.xcconfig */,
-				76F078F3890F6E64F26FC5AB /* Pods-Pinetum-PinetumTests.release.xcconfig */,
+				B9B59F6D2D3B53D657DD893F /* Pods-Pinetum.debug.xcconfig */,
+				0276041CEDB21CB8FDF66912 /* Pods-Pinetum.release.xcconfig */,
+				2A3320730BAA5F8283F50568 /* Pods-Pinetum-PinetumTests.debug.xcconfig */,
+				74C623CD2D1FF87DCC2F296A /* Pods-Pinetum-PinetumTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PinetumTests" */;
 			buildPhases = (
-				AA7E717C71CE4631A05E9937 /* [CP] Check Pods Manifest.lock */,
+				A929CAE71E33148081077358 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A08AC7670FED169C160726DB /* [CP] Embed Pods Frameworks */,
-				349BC9CE31A94EB50DF19A92 /* [CP] Copy Pods Resources */,
+				63CD3DE75357A4222D70401B /* [CP] Embed Pods Frameworks */,
+				30173AAEA4BAFF0DD099692C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +176,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Pinetum" */;
 			buildPhases = (
-				253327FD7118A20182DD3ED1 /* [CP] Check Pods Manifest.lock */,
+				161A0F7B9888F4E95D925FE2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				BDEC91586D48CF24FE6AF963 /* [CP] Embed Pods Frameworks */,
-				14326B1E5CD1BB8E76520E78 /* [CP] Copy Pods Resources */,
+				6CD11BCF0DCC02BA7EA1FCC2 /* [CP] Embed Pods Frameworks */,
+				5BCA36B742C1C0BBA38BFD5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,24 +266,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		14326B1E5CD1BB8E76520E78 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		253327FD7118A20182DD3ED1 /* [CP] Check Pods Manifest.lock */ = {
+		161A0F7B9888F4E95D925FE2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -305,7 +288,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		349BC9CE31A94EB50DF19A92 /* [CP] Copy Pods Resources */ = {
+		30173AAEA4BAFF0DD099692C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,7 +305,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pinetum-PinetumTests/Pods-Pinetum-PinetumTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A08AC7670FED169C160726DB /* [CP] Embed Pods Frameworks */ = {
+		5BCA36B742C1C0BBA38BFD5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63CD3DE75357A4222D70401B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,7 +339,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pinetum-PinetumTests/Pods-Pinetum-PinetumTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AA7E717C71CE4631A05E9937 /* [CP] Check Pods Manifest.lock */ = {
+		6CD11BCF0DCC02BA7EA1FCC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A929CAE71E33148081077358 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,23 +376,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BDEC91586D48CF24FE6AF963 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pinetum/Pods-Pinetum-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,7 +430,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95F2AB42B4C81C76B089A1D1 /* Pods-Pinetum-PinetumTests.debug.xcconfig */;
+			baseConfigurationReference = 2A3320730BAA5F8283F50568 /* Pods-Pinetum-PinetumTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -457,7 +457,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76F078F3890F6E64F26FC5AB /* Pods-Pinetum-PinetumTests.release.xcconfig */;
+			baseConfigurationReference = 74C623CD2D1FF87DCC2F296A /* Pods-Pinetum-PinetumTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -481,7 +481,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAA043F5A428345D61E5DF84 /* Pods-Pinetum.debug.xcconfig */;
+			baseConfigurationReference = B9B59F6D2D3B53D657DD893F /* Pods-Pinetum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -512,7 +512,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CFA25443DA8776D348AC0FE /* Pods-Pinetum.release.xcconfig */;
+			baseConfigurationReference = 0276041CEDB21CB8FDF66912 /* Pods-Pinetum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

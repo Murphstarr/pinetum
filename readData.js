@@ -7,7 +7,8 @@ export function readGenus() {
     for (let i=0; i< dataLength-1;i++){
         genusSet.add(data[i].Genus)
     }
-    console.log(genusSet)
+    let genusArray = Array.from(genusSet)
+    return genusArray;
 }
 
 export function getSpecies(genus){
@@ -19,7 +20,8 @@ export function getSpecies(genus){
             speciesSet.add(data[i].Species)
         }
     }
-    console.log(speciesSet)
+    let speciesArray = Array.from(speciesSet)
+    return speciesArray;
 }
 
 export function getVariation(species){
@@ -31,5 +33,6 @@ export function getVariation(species){
             variationSet.add(data[i].Variation)
         }
     }
-    console.log(variationSet)
+    let variationArray = Array.from(variationSet)
+    return variationArray
 }
