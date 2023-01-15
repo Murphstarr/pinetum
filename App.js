@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-import HomeScreen from './EntryScreen.js'
+import EntryScreen from './EntryScreen.js'
 import { readGenus, getSpecies, getVariation } from './readData.js'
 // Initialize Apollo Client
 const client = new ApolloClient({
@@ -63,14 +63,8 @@ const App = () => {
   return (
     <ApolloProvider client={client}>
     <View style={styles.container}>
-      <Text>Welcome!</Text>
-      <View
-        style={{marginTop: 10, padding: 10, borderRadius: 10, width: '40%'}}>
-        <Button title="Get Location" onPress={requestLocationPermission} />
-      </View>
-      <Text>Latitude: {location ? location.coords.latitude : null}</Text>
-      <Text>Longitude: {location ? location.coords.longitude : null}</Text>
-      
+      <EntryScreen>
+      </EntryScreen>
     </View>
     </ApolloProvider>
   );
