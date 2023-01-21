@@ -5,17 +5,6 @@
  * @format
  * @flow strict-local
  */
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
-
-import { readGenus, getSpecies, getVariation } from './readData.js'
-import HomeScreen from './src/screens/HomeScreen.js'
-import EntryScreen from './src/screens/EntryScreen.js'
-// Initialize Apollo Client
-const client = new ApolloClient({
-  uri: 'https://countries.trevorblades.com/graphql',
-  cache: new InMemoryCache()
-});
-
 import React, {useState, useEffect} from 'react';
 import {
   StyleSheet,
@@ -30,7 +19,6 @@ import Geolocation from 'react-native-geolocation-service';
 
 const App = () => {
   // state to hold location
-  getVariation("alba")
   const [location, setLocation] = useState(false);
   const requestLocationPermission = async () => {
     if (Platform.OS === 'ios') {
@@ -63,23 +51,28 @@ const App = () => {
  
 
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
-      <EntryScreen></EntryScreen>
+    <View style={styles.container}>
+      <Text></Text>
+      <View
+        style={{marginTop: 10, padding: 10, borderRadius: 10, width: '40%'}}>
+        <Button title="Get Location" onPress={requestLocationPermission} />
+      </View>
+      <Text style={styles.titleText}>Latitude: {location ? location.coords.latitude : null}</Text>
+      <Text style={styles.titleText}>Longitude: {location ? location.coords.longitude : null}</Text>
+
     </View>
   );
 };
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  titleText: {
+    fontSize: 25,
+    fontWeight: 'bold',
   },
 });
 export default App;
