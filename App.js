@@ -55,7 +55,7 @@ const App = () => {
       <Text></Text>
       <View
         style={{marginTop: 10, padding: 10, borderRadius: 10, width: '40%'}}>
-        <Button title="Get Location" onPress={requestLocationPermission} />
+        <Button title="Get The Location" onPress={requestLocationPermission} />
       </View>
       <Text style={styles.titleText}>Latitude: {location ? location.coords.latitude : null}</Text>
       <Text style={styles.titleText}>Longitude: {location ? location.coords.longitude : null}</Text>
